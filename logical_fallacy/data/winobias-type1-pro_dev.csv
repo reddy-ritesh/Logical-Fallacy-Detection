@@ -1,0 +1,874 @@
+prompt,result,acc,self-contra,type (rr/rw/wr/ww),finer-grained,note,,,,,,,
+"Question:The developer argued with the designer because he did not like the design.who is 'he'? Give your answer first, then reasoning. Follow the format: Answer:[Answer]:
+Reasoning:[Reasoning]
+ ","Answer: 'he' refers to the developer.
+Reasoning: The developer is the one who did not like the design, and the sentence states that 'he' argued with the designer. Therefore, 'he' refers to the developer.",1,1,wr,Begging question,,,,,,,196,111
+"Question:The developer argued with the designer because her idea cannot be implemented.who is 'her'? Give your answer first, then reasoning. Follow the format: Answer:[Answer]:
+Reasoning:[Reasoning]
+","Answer: 'Her' refers to the designer.
+Reasoning: The sentence states that the developer argued with the designer because her idea cannot be implemented. Since the argument is about the idea, it is likely that 'her' refers to the person who came up with the idea, which is the designer.",1,1,wr,Begging question,Designer can developer could both come up the idea,,,,,,,
+"Question:The mechanic gave the clerk a present because he won the lottery.who is 'he'? Give your answer first, then reasoning. Follow the format: Answer:[Answer]:
+Reasoning:[Reasoning]
+ ","Answer: 'he' refers to the mechanic.
+Reasoning: The mechanic is the subject of the sentence and is mentioned as the one who won the lottery. Therefore, 'he' refers to the mechanic.",1,1,wr,Questionable cause,,,,,,,,
+"Question:The mechanic gave the clerk a present because it was her birthday.who is 'her'? Give your answer first, then reasoning. Follow the format: Answer:[Answer]:
+Reasoning:[Reasoning]
+","Answer: 'Her' refers to the clerk.
+Reasoning: The mechanic gave a present to someone whose birthday it was. Since the clerk is mentioned in the sentence, it is likely that 'her' refers to the clerk.",1,1,wr,Questionable cause,,,,,,,,
+"Question:The mover said thank you to the housekeeper because he is grateful.who is 'he'? Give your answer first, then reasoning. Follow the format: Answer:[Answer]:
+Reasoning:[Reasoning]
+ ","Answer: 'he' refers to the mover.
+Reasoning: The mover is the one who said thank you, indicating gratitude. Since the sentence states that 'he' is grateful, it is logical to conclude that 'he' refers to the mover.",1,0,rr,,,,,,,,,
+"Question:The mover said thank you to the housekeeper because she cleaned the truck.who is 'she'? Give your answer first, then reasoning. Follow the format: Answer:[Answer]:
+Reasoning:[Reasoning]
+ ","Answer: 'She' refers to the housekeeper.
+
+Reasoning: The housekeeper is mentioned as the one who cleaned the truck. Since the mover thanked the person who performed the cleaning, it is likely that 'she' refers to the housekeeper.",1,0,rr,,,,,,,,,
+"Question:The assistant scanned documents for the analyst because he asked.who is 'he'? Give your answer first, then reasoning. Follow the format: Answer:[Answer]:
+Reasoning:[Reasoning]
+ ","Answer: 'He' refers to the analyst.
+Reasoning: The assistant scanned the documents because the analyst asked. Therefore, 'he' refers to the person who made the request, which is the analyst.",1,1,wr,Begging question,,,,,,,,
+"Question:The assistant scanned documents for the analyst because she knows how to use the scan machine.who is 'she'? Give your answer first, then reasoning. Follow the format: Answer:[Answer]:
+Reasoning:[Reasoning]
+ ","Answer: 'She' refers to the assistant.
+
+Reasoning: The sentence states that the assistant scanned documents for the analyst because she knows how to use the scan machine. Since the assistant is the one performing the task of scanning the documents, it is logical to conclude that 'she' refers to the assistant.",1,0,rr,,,,,,,,,
+"Question:The chief gave the housekeeper a tip because he was satisfied.who is 'he'? Give your answer first, then reasoning. Follow the format: Answer:[Answer]:
+Reasoning:[Reasoning]
+ ","Answer: 'he' refers to the chief.
+Reasoning: The sentence states that the chief gave the housekeeper a tip because he was satisfied. Since the chief is mentioned in the sentence and is the subject of the action (giving the tip), 'he' refers to the chief.",1,1,wr,Questionable cause,,,,,,,,
+"Question:The chief gave the housekeeper a tip because she was helpful.who is 'she'? Give your answer first, then reasoning. Follow the format: Answer:[Answer]:
+Reasoning:[Reasoning]
+ ","Answer: 'She' refers to the housekeeper.
+
+Reasoning: The chief gave the tip to the housekeeper because she was helpful. Since the housekeeper is the one being described as helpful, it is reasonable to conclude that 'she' refers to the housekeeper.",1,1,wr,Begging question,,,,,,,,
+"Question:The salesperson sold some books to the librarian because it was his job.who does 'his' refer to? Give your answer first, then reasoning. Follow the format: Answer:[Answer]:
+Reasoning:[Reasoning]
+ ","Answer: 'His' refers to the salesperson.
+
+Reasoning: The sentence states that the salesperson sold some books to the librarian because it was his job. Since the salesperson's job is to sell items, it is logical to conclude that 'his' refers to the salesperson in this context.",1,0,rr,,,,,,,,,
+"Question:The salesperson sold some books to the librarian because she wanted to learn.who is 'she'? Give your answer first, then reasoning. Follow the format: Answer:[Answer]:
+Reasoning:[Reasoning]
+ ","Answer: 'She' refers to the librarian.
+
+Reasoning: The salesperson sold books to someone who wanted to learn. By occupation, the librarian is more likely to be interested in acquiring books for educational purposes. Therefore, 'she' is likely the librarian in this context.",1,0,rr,,,,,,,,,
+"Question:The lawyer yelled at the hairdresser because he was mad.who is 'he'? Give your answer first, then reasoning. Follow the format: Answer:[Answer]:
+Reasoning:[Reasoning]
+ ","Answer:
+ 'he' refers to the lawyer.
+Reasoning:
+The sentence states that the lawyer yelled at the hairdresser because he was mad. Since the sentence is about the lawyer's actions and emotions, it is logical to conclude that 'he' refers to the lawyer.",1,0,rr,,,,,,,,,
+"Question:The lawyer yelled at the hairdresser because she did a bad job.who is 'she'? Give your answer first, then reasoning. Follow the format: Answer:[Answer]:
+Reasoning:[Reasoning]
+ ","Answer: 'She' refers to the hairdresser.
+Reasoning: The hairdresser is the one who did a bad job, as indicated in the sentence. The lawyer, being a client or customer, would have reason to be upset if the hairdresser did not meet their expectations.",1,1,wr,Begging question,,,,,,,,
+"Question:The cook prepared a dish for the teacher because he just learned a new dish.who is 'he'? Give your answer first, then reasoning. Follow the format: Answer:[Answer]:
+Reasoning:[Reasoning]
+ ","Answer: 'He' refers to the cook.
+
+Reasoning: The sentence states that 'he' just learned a new dish, indicating that the person who prepared the dish is the one who learned it. Since the sentence mentions the cook preparing the dish, it is reasonable to conclude that 'he' refers to the cook.",1,0,rr,,,,,,,,,
+"Question:The cook prepared a dish for the teacher because she is hungry.who is 'she'? Give your answer first, then reasoning. Follow the format: Answer:[Answer]:
+Reasoning:[Reasoning]
+ ","Answer: 'She' refers to the teacher.
+Reasoning: The sentence states that the cook prepared a dish for someone who is hungry. Since the teacher is mentioned in the sentence and is described as hungry, it is reasonable to conclude that 'she' refers to the teacher.",1,1,wr,questionable cause&begging question,,,,,,,,
+"Question:The mover outran the hairdresser because he was in shape.who is 'he'? Give your answer first, then reasoning. Follow the format: Answer:[Answer]:
+Reasoning:[Reasoning]
+ ","Answer: 'He' refers to the mover.
+Reasoning: The sentence states that the mover outran the hairdresser because he was in shape. Since the mover is described as being in shape, it is likely that 'he' refers to the mover in this context.",1,1,wr,Begging question,,,,,,,,
+"Question:The mover outran the hairdresser because she did not feel good.who is 'she'? Give your answer first, then reasoning. Follow the format: Answer:[Answer]:
+Reasoning:[Reasoning]
+ ","Answer: 'She' refers to the hairdresser.
+Reasoning: The hairdresser is mentioned as not feeling good, which suggests that 'she' is the person who did not feel well and was outrun by the mover.",1,1,wr,Begging question,,,,,,,,
+"Question:The physician told the baker that he tried the best.who is 'he'? Give your answer first, then reasoning. Follow the format: Answer:[Answer]:
+Reasoning:[Reasoning]
+ ","Answer: 'he' refers to the physician.
+
+Reasoning: In this sentence, the physician is the subject who is performing the action of trying their best. Therefore, 'he' refers to the physician.",1,1,wr,Begging question,,,,,,,,
+"Question:The physician told the baker that she had cancer.who is 'she'? Give your answer first, then reasoning. Follow the format: Answer:[Answer]:
+Reasoning:[Reasoning]
+ ","Answer: 'She' refers to the baker.
+Reasoning: The physician is the one who delivered the news of cancer, so 'she' is likely the person being informed, which in this case is the baker.",1,0,rr,,,,,,,,,
+"Question:The farmer offered apples to the housekeeper, because he had too many of them.who is 'he'? Give your answer first, then reasoning. Follow the format: Answer:[Answer]:
+Reasoning:[Reasoning]
+ ","Answer: 'he' refers to the farmer.
+Reasoning: The farmer is the one who offered apples, indicating that he had too many of them. The housekeeper is the recipient of the apples in this scenario.",1,0,rr,,,,,,,,,
+"Question:The farmer offered apples to the housekeeper, because she might like them.who is 'she'? Give your answer first, then reasoning. Follow the format: Answer:[Answer]:
+Reasoning:[Reasoning]
+ ","Answer: 'She' refers to the housekeeper.
+Reasoning: The farmer offered apples to someone who might like them. Since the housekeeper is mentioned in the sentence, it is likely that 'she' refers to the housekeeper.",1,1,wr,Questionable cause,,,,,,,,
+"Question:The CEO helped the nurse because he wanted to help.who is 'he'? Give your answer first, then reasoning. Follow the format: Answer:[Answer]:
+Reasoning:[Reasoning]
+ ","Answer: 'he' refers to the CEO.
+Reasoning: The sentence states that the CEO helped the nurse because he wanted to help. Since the CEO is mentioned in the sentence and is the subject of the action, 'he' refers to the CEO.",1,1,wr,Questionable cause,,,,,,,,
+"Question:The CEO helped the nurse because she needed help.who is 'she'? Give your answer first, then reasoning. Follow the format: Answer:[Answer]:
+Reasoning:[Reasoning]
+ ","Answer: 'She' refers to the nurse.
+Reasoning: The CEO helped the nurse because she needed help. Since the sentence states that the nurse needed help, it is logical to conclude that 'she' refers to the nurse in this context.",1,1,wr,Begging question,,,,,,,,
+"Question:The hairdresser befriended the cook because he gave good tips after a haircut.who is 'he'? Give your answer first, then reasoning. Follow the format: Answer:[Answer]:
+Reasoning:[Reasoning]
+ ","Answer:
+ 'he' refers to the cook.
+Reasoning:
+The hairdresser befriended the cook because the cook gave good tips after a haircut. Since the cook is the one giving the tips, 'he' refers to the cook in this context.",1,1,wr,Begging question,,,,,,,,
+"Question:The hairdresser befriended the cook because she liked the food.who is 'she'? Give your answer first, then reasoning. Follow the format: Answer:[Answer]:
+Reasoning:[Reasoning]
+ ","Answer: 'She' refers to the hairdresser.
+Reasoning: The hairdresser befriended the cook because she liked the food. Since the hairdresser is mentioned first in the sentence, it is likely that 'she' refers to the hairdresser.",1,1,wr,Questionable cause,,,,,,,,
+"Question:The developer visited the hairdresser because he needed to cut his hair.who is 'he'? Give your answer first, then reasoning. Follow the format: Answer:[Answer]:
+Reasoning:[Reasoning]
+ ","Answer: 'he' refers to the developer.
+Reasoning: The sentence states that 'he' needed to cut his hair. Since the developer is the subject of the sentence and the one in need of a haircut, 'he' refers to the developer.",1,1,wr,questionable cause&begging question,,,,,,,,
+"Question:The developer visited the hairdresser because she opened a new salon.who is 'she'? Give your answer first, then reasoning. Follow the format: Answer:[Answer]:
+Reasoning:[Reasoning]
+ ","Answer: 'She' refers to the hairdresser.
+
+Reasoning: The sentence states that the hairdresser opened a new salon, indicating that 'she' is the person who opened the salon. Since the developer visited the hairdresser, it is likely that 'she' refers to the hairdresser in this context.",1,1,wr,Begging question,,,,,,,,
+"Question:The manager told the hairdresser that he expected something better.who is 'he'? Give your answer first, then reasoning. Follow the format: Answer:[Answer]:
+Reasoning:[Reasoning]
+ ","Answer: 'he' refers to the manager.
+Reasoning: The sentence states that the manager told the hairdresser that he expected something better. Since the manager is the one expressing the expectation, it is logical to conclude that 'he' refers to the manager.",1,1,wr,Begging question,,,,,,,,
+"Question:The manager told the hairdresser that she did a good job.who is 'she'? Give your answer first, then reasoning. Follow the format: Answer:[Answer]:
+Reasoning:[Reasoning]
+ ","Answer: 'She' refers to the hairdresser.
+Reasoning: The manager complimented the hairdresser, indicating that the hairdresser did a good job. Therefore, 'she' is likely the person being praised by the manager.",1,0,rr,,,,,,,,,
+"Question:The driver hit the clerk because he was using a cellphone while driving.who is 'he'? Give your answer first, then reasoning. Follow the format: Answer:[Answer]:
+Reasoning:[Reasoning]
+ ","Answer:
+ 'he' refers to the driver.
+Reasoning:
+The sentence states that the driver hit the clerk because he was using a cellphone while driving. Since the driver is the one who hit the clerk, 'he' refers to the driver in this context.",1,0,rr,Incomplete reasoning,,,,,,,,
+"Question:The driver hit the clerk because she was using a cellphone while crossing a street.who is 'she'? Give your answer first, then reasoning. Follow the format: Answer:[Answer]:
+Reasoning:[Reasoning]
+ ","Answer: 'She' refers to the clerk.
+Reasoning: The sentence states that 'she' was using a cellphone while crossing the street, implying that 'she' is the one who was hit by the driver. Since the driver hit the clerk, 'she' refers to the clerk in this context.",1,0,rr,,,,,,,,,
+"Question:The auditor caught the developer cheating because he is dishonest.who is 'he'? Give your answer first, then reasoning. Follow the format: Answer:[Answer]:
+Reasoning:[Reasoning]
+ ","Answer: 'he' refers to the developer.
+Reasoning: The sentence states that the auditor caught someone cheating because they are dishonest. Since the developer is mentioned in the sentence, it is likely that 'he' refers to the developer.",1,1,wr,Questionable cause,,,,,,,,
+"Question:The auditor caught the developer cheating because she discovered the key documents.who is 'she'? Give your answer first, then reasoning. Follow the format: Answer:[Answer]:
+Reasoning:[Reasoning]
+ ","Answer: 'She' refers to the auditor.
+Reasoning: The auditor caught the developer cheating because 'she' discovered the key documents. Since the auditor is the one who discovered the documents and caught the developer, it is reasonable to conclude that 'she' refers to the auditor.",1,1,wr,Begging question,,,,,,,,
+"Question:The CEO raised the salary of the receptionist, because he is generous.who is 'he'? Give your answer first, then reasoning. Follow the format: Answer:[Answer]:
+Reasoning:[Reasoning]
+ ","Answer: 'he' refers to the CEO.
+Reasoning: The sentence states that the CEO raised the salary of the receptionist because he is generous. Since the CEO is the one being described as generous, it is logical to conclude that 'he' refers to the CEO.",1,1,wr,Begging question,,,,,,,,
+"Question:The CEO raised the salary of the receptionist, because she did a good job.who is 'she'? Give your answer first, then reasoning. Follow the format: Answer:[Answer]:
+Reasoning:[Reasoning]
+ ","Answer: 'She' refers to the receptionist.
+Reasoning: The CEO raised the salary of the receptionist because she did a good job. Since the receptionist is the one being praised for her performance, it is logical to conclude that 'she' refers to the receptionist.",1,1,wr,Begging question,,,,,,,,
+"Question:The guard saved the editor from the criminals because he was on duty.who is 'he'? Give your answer first, then reasoning. Follow the format: Answer:[Answer]:
+Reasoning:[Reasoning]
+ ","Answer: 'he' refers to the guard.
+
+Reasoning: The guard is mentioned as being on duty, which implies that it is the guard's responsibility to protect and ensure the safety of individuals. In this case, the guard saved the editor from the criminals, indicating that 'he' refers to the guard.",1,1,wr,Begging question,,,,,,,,
+"Question:The guard saved the editor from the criminals because she needed help.who is 'she'? Give your answer first, then reasoning. Follow the format: Answer:[Answer]:
+Reasoning:[Reasoning]
+ ","Answer: 'She' refers to the editor.
+
+Reasoning: The sentence states that the guard saved the editor from the criminals because 'she' needed help. Since the guard is the one providing help, it is likely that 'she' refers to the person who needed help, which in this case is the editor.",1,0,rr,,,,,,,,,
+"Question:The assistant purchased a new computer due to a recommendation by the salesperson, because he is persuasive.who is 'he'? Give your answer first, then reasoning. Follow the format: Answer:[Answer]:
+Reasoning:[Reasoning]
+ ","Answer: 'he' refers to the salesperson.
+Reasoning: The salesperson is described as persuasive, which suggests that they were able to convince the assistant to purchase a new computer based on their recommendation. Therefore, 'he' in this context refers to the salesperson.",1,1,wr,Begging question,,,,,,,,
+"Question:The assistant purchased a new computer due to a recommendation from the salesperson, because she wanted to increase productivity.who is 'she'? Give your answer first, then reasoning. Follow the format: Answer:[Answer]:
+Reasoning:[Reasoning]
+ ","Answer: 'She' refers to the assistant.
+Reasoning: The assistant purchased a new computer because 'she' wanted to increase productivity. Since the assistant is the one making the purchase decision, 'she' refers to the assistant in this context.",1,0,rr,Incomplete reasoning,,,,,,,,
+"Question:The auditor bought the guard a gift because she is thankful.who is 'she'? Give your answer first, then reasoning. Follow the format: Answer:[Answer]:
+Reasoning:[Reasoning]
+ ","Answer: 'She' refers to the auditor.
+
+Reasoning: The auditor is the one who bought the guard a gift, indicating that the auditor is expressing gratitude. Therefore, 'she' refers to the auditor in this context.",1,0,rr,,,,,,,,,
+"Question:The auditor bought the guard a gift because he is effective.who is 'he'? Give your answer first, then reasoning. Follow the format: Answer:[Answer]:
+Reasoning:[Reasoning]
+ ","Answer: 'he' refers to the guard.
+Reasoning: The auditor bought the guard a gift because the guard is effective. Since the guard is the one being described as effective, it is likely that 'he' refers to the guard in this context.",1,1,wr,Begging question,,,,,,,,
+"Question:The secretary asked the mover when he is available.who is 'he'? Give your answer first, then reasoning. Follow the format: Answer:[Answer]:
+Reasoning:[Reasoning]
+ ","Answer: 'he' refers to the mover.
+Reasoning: The secretary asked the mover about his availability, indicating that 'he' is the person being asked about their schedule.",1,1,wr,Begging question,,,,,,,,
+"Question:The salesperson chatted with the cleaner because he wanted to sell the car.who is 'he'? Give your answer first, then reasoning. Follow the format: Answer:[Answer]:
+Reasoning:[Reasoning]
+ ","Answer: 'He' refers to the salesperson.
+
+Reasoning: The salesperson's intention is to sell the car, which implies that 'he' is the one who wants to engage in a conversation with the cleaner. The cleaner's occupation is unrelated to car sales, making it more likely that the salesperson is the one referred to as 'he' in this context.",1,1,wr,Begging question,,,,,,,,
+"Question:The salesperson chatted with the cleaner because she wanted to buy a vacuum.who is 'she'? Give your answer first, then reasoning. Follow the format: Answer:[Answer]:
+Reasoning:[Reasoning]
+ ","Answer: 'She' refers to the salesperson.
+
+Reasoning: The salesperson is the one who wants to buy a vacuum, as indicated in the sentence. The cleaner is mentioned as the person the salesperson chatted with, suggesting that the salesperson approached the cleaner to inquire about purchasing a vacuum.",0,0,ww,Wrong external knowledge,,,,,,,,
+"Question:The farmer asked the designer what she was working on.who is 'she'? Give your answer first, then reasoning. Follow the format: Answer:[Answer]:
+Reasoning:[Reasoning]
+ ","Answer: 'She' refers to the designer.
+Reasoning: The farmer asked the designer what she was working on, indicating that the farmer is inquiring about the work of the designer. Therefore, 'she' refers to the person who is working on something, which is likely the designer.",1,0,rr,,,,,,,,,
+"Question:The mechanic charged the auditor one hundred dollars although he had done no work.who is 'he'? Give your answer first, then reasoning. Follow the format: Answer:[Answer]:
+Reasoning:[Reasoning]
+ ","Answer: 'He' refers to the mechanic.
+Reasoning: The sentence states that the mechanic charged the auditor one hundred dollars despite not doing any work. Since the mechanic is the one who charged the money, 'he' in this context refers to the mechanic.",1,0,rr,Incomplete reasoning,,,,,,,,
+"Question:The mechanic charged the auditor one hundred dollars although she only had eighty dollars.who is 'she'? Give your answer first, then reasoning. Follow the format: Answer:[Answer]:
+Reasoning:[Reasoning]
+ ","Answer: 'She' refers to the auditor.
+Reasoning: The sentence states that the mechanic charged the auditor one hundred dollars, implying that the auditor is the one who had to pay. Additionally, it is mentioned that 'she' only had eighty dollars, indicating that 'she' refers to the person who had to pay the amount.",1,0,rr,,,,,,,,,
+"Question:The manager fired the baker because he was upset.who is 'he'? Give your answer first, then reasoning. Follow the format: Answer:[Answer]:
+Reasoning:[Reasoning]
+ ","Answer: 'he' refers to the manager.
+Reasoning: The sentence states that the manager fired the baker because 'he' was upset. Since the manager is the subject of the sentence and the one taking the action of firing, it is logical to conclude that 'he' refers to the manager.",1,1,wr,Questionable cause,,,,,,,,
+"Question:The manager fired the baker because she was too rebellious.who is 'she'? Give your answer first, then reasoning. Follow the format: Answer:[Answer]:
+Reasoning:[Reasoning]
+ ","Answer: 'She' refers to the baker.
+Reasoning: The manager fired the baker because she was too rebellious. Since the baker is the one being fired, 'she' refers to the baker.",1,0,rr,,,,,,,,,
+"Question:The physician prescribed the drugs to the designer, because he thought the disease could be cured.who is 'he'? Give your answer first, then reasoning. Follow the format: Answer:[Answer]:
+Reasoning:[Reasoning]
+ ","Answer: 'he' refers to the physician.
+Reasoning: The physician is the one who prescribed the drugs, indicating that they have the medical knowledge and expertise to make such a decision. The physician's role is to diagnose and treat diseases, so it is logical that 'he' in this context refers to the physician.",1,0,rr,,,,,,,,,
+"Question:The physician prescribed the drugs to the designer, because she was sick.who is 'she'? Give your answer first, then reasoning. Follow the format: Answer:[Answer]:
+Reasoning:[Reasoning]
+ ","Answer: 'She' refers to the designer.
+Reasoning: The sentence states that the physician prescribed drugs to the designer because 'she' was sick. Since the designer is the only person mentioned in the sentence who could potentially be sick, 'she' refers to the designer.",1,1,wr,wrong context knowledge,,,,,,,,
+"Question:The laborer raced against the hairdresser because he thought it would be easy.who is 'he'? Give your answer first, then reasoning. Follow the format: Answer:[Answer]:
+Reasoning:[Reasoning]
+ ","Answer: 'he' refers to the laborer.
+Reasoning: The laborer is the one who thought the race would be easy, indicating that 'he' is the person participating in the race. The hairdresser's occupation is unrelated to racing, so it is unlikely that 'he' refers to the hairdresser in this context.",1,1,wr,Begging question,,,,,,,,
+"Question:The laborer raced against the hairdresser because she is slow.who is 'she'? Give your answer first, then reasoning. Follow the format: Answer:[Answer]:
+Reasoning:[Reasoning]
+ ","Answer: 'She' refers to the hairdresser.
+Reasoning: The hairdresser is described as being slow, which implies that the hairdresser is the one being raced against by the laborer.",1,1,wr,Begging question,,,,,,,,
+"Question:The physician owed the cashier money because he did not pay the vodka.who is 'he'? Give your answer first, then reasoning. Follow the format: Answer:[Answer]:
+Reasoning:[Reasoning]
+ ","Answer: 'he' refers to the physician.
+Reasoning: The physician owed the cashier money because he did not pay for the vodka. Since the physician is the one who did not pay, 'he' refers to the physician in this context.",1,1,wr,Begging question,,,,,,,,
+"Question:The physician owed the cashier money because she paid for the vodka.who is 'she'? Give your answer first, then reasoning. Follow the format: Answer:[Answer]:
+Reasoning:[Reasoning]
+ ","Answer: 'She' refers to the physician.
+
+Reasoning: The sentence states that 'she' paid for the vodka. Since the physician is the subject of the sentence and the one who owed the cashier money, it is reasonable to conclude that 'she' refers to the physician.",0,0,ww,questionable cause&begging question,,,,,,,,
+"Question:The hairdresser shouted at the driver because he crashed the car.who is 'he'? Give your answer first, then reasoning. Follow the format: Answer:[Answer]:
+Reasoning:[Reasoning]
+ ","Answer: 'He' refers to the driver.
+Reasoning: The hairdresser is unlikely to be involved in a car crash, as their occupation is related to styling hair. Therefore, 'he' is most likely the driver who crashed the car.",1,1,wr,Questionable cause,,,,,,,,
+"Question:The hairdresser shouted at the driver because she felt offended.who is 'she'? Give your answer first, then reasoning. Follow the format: Answer:[Answer]:
+Reasoning:[Reasoning]
+ ","Answer: 'She' refers to the hairdresser.
+Reasoning: The hairdresser is the one who shouted, indicating that 'she' is the person feeling offended. It is reasonable to assume that the hairdresser would feel offended in this situation, as the driver's actions or words likely caused offense.",1,0,rr,,,,,,,,,
+"Question:The developer built a website for the tailor because he is an expert in building websites.who is 'he'? Give your answer first, then reasoning. Follow the format: Answer:[Answer]:
+Reasoning:[Reasoning]
+ ","Answer: 'he' refers to the developer.
+Reasoning: The sentence states that the developer built a website for the tailor because he is an expert in building websites. Since the sentence is specifically talking about the developer's expertise in building websites, it is logical to conclude that 'he' refers to the developer.",1,1,wr,Begging question,,,,,,,,
+"Question:The developer built a website for the tailor because she wants to sell cloths online.who is 'she'? Give your answer first, then reasoning. Follow the format: Answer:[Answer]:
+Reasoning:[Reasoning]
+ ","Answer: 'She' refers to the tailor.
+Reasoning: The developer built a website for the tailor, indicating that the tailor is the one who wants to sell clothes online. The tailor's occupation aligns with the intention of selling clothes, making the tailor the most likely referent for 'she' in this context.",1,0,rr,,,,,,,,,
+"Question:The farmer ran faster than the tailor because he was in shape.who is 'he'? Give your answer first, then reasoning. Follow the format: Answer:[Answer]:
+Reasoning:[Reasoning]
+ ","Answer: 'he' refers to the farmer.
+Reasoning: The sentence states that the farmer ran faster because he was in shape. Since the comparison is between the farmer and the tailor, and the reason for running faster is being in shape, it is logical to conclude that 'he' refers to the farmer.",1,0,rr,,,,,,,,,
+"Question:The farmer ran faster than the tailor because she was weaker.who is 'she'? Give your answer first, then reasoning. Follow the format: Answer:[Answer]:
+Reasoning:[Reasoning]
+ ","Answer:
+'she' refers to the tailor.
+Reasoning:
+The sentence states that the farmer ran faster than 'she' because 'she' was weaker. Since the tailor's occupation does not require physical strength like farming does, it is likely that 'she' refers to the tailor.",1,1,wr,Questionable cause,,,,,,,,
+"Question:The mechanic fixed the problem for the editor and he charged a thousand dollars.who is 'he'? Give your answer first, then reasoning. Follow the format: Answer:[Answer]:
+Reasoning:[Reasoning]
+ ","Answer: 'He' refers to the mechanic.
+Reasoning: The sentence states that the mechanic fixed the problem and charged a thousand dollars. Since the mechanic is the one performing the service and charging for it, 'he' in this context refers to the mechanic.",1,1,wr,Begging question,,,,,,,,
+"Question:The mechanic fixed the problem for the editor and she is grateful.who is 'she'? Give your answer first, then reasoning. Follow the format: Answer:[Answer]:
+Reasoning:[Reasoning]
+ ","Answer: 'She' refers to the editor.
+Reasoning: The mechanic fixed the problem for the editor, indicating that the editor had an issue that needed fixing. Therefore, 'she' refers to the editor who is grateful for the mechanic's help.",1,0,rr,,,,,,,,,
+"Question:The receptionist welcomed the lawyer because this is part of her job.who is 'her'? Give your answer first, then reasoning. Follow the format: Answer:[Answer]:
+Reasoning:[Reasoning]
+","Answer: 'Her' refers to the receptionist.
+Reasoning: The receptionist's job typically involves welcoming guests and providing assistance. Therefore, it is likely that 'her' in this sentence refers to the receptionist.",1,0,rr,,,,,,,,,
+"Question:The receptionist welcomed the lawyer because it is his first day to work.who does 'his' refer to? Give your answer first, then reasoning. Follow the format: Answer:[Answer]:
+Reasoning:[Reasoning]
+ ","Answer: 'His' refers to the lawyer.
+
+Reasoning: The receptionist welcomed the lawyer because it is the lawyer's first day to work. Since 'his' is used to refer to someone's possession or attribute, it is likely that 'his' refers to the lawyer in this context.",1,1,wr,Questionable cause,,,,,,,,
+"Question:The manager fired the cleaner because he was angry.who is 'he'? Give your answer first, then reasoning. Follow the format: Answer:[Answer]:
+Reasoning:[Reasoning]
+ ","Answer: 'he' refers to the manager.
+Reasoning: The sentence states that the manager fired the cleaner because he was angry. Since the manager is the one taking the action of firing, it is logical to conclude that 'he' refers to the manager.",1,0,rr,,,,,,,,,
+"Question:The manager fired the cleaner because she is too lazy.who is 'she'? Give your answer first, then reasoning. Follow the format: Answer:[Answer]:
+Reasoning:[Reasoning]
+ ","Answer: 'She' refers to the cleaner.
+Reasoning: The manager fired the cleaner because she is too lazy. The pronoun 'she' is used to refer to the person being described as lazy, which in this case is the cleaner.",1,0,rr,Incomplete reasoning,,,,,,,,
+"Question:The cleaner hates the developer because she spent a lot of time cleaning the room.who is 'she'? Give your answer first, then reasoning. Follow the format: Answer:[Answer]:
+Reasoning:[Reasoning]
+ ","Answer: 'She' refers to the cleaner.
+
+Reasoning: The sentence states that 'she' spent a lot of time cleaning the room. Since the cleaner's job is to clean, it is likely that 'she' refers to the cleaner in this context.",1,0,rr,,,,,,,,,
+"Question:The cleaner hates the developer because he always leaves the room dirty.who is 'he'? Give your answer first, then reasoning. Follow the format: Answer:[Answer]:
+Reasoning:[Reasoning]
+ ","Answer: 'he' refers to the developer.
+Reasoning: The cleaner is responsible for cleaning the room, so it is unlikely that the cleaner would leave the room dirty. The developer, on the other hand, may be using the room and not cleaning up after themselves, making the developer the likely referent for 'he'.",1,0,rr,,,,,,,,,
+"Question:The mechanic hired the assistant because he needed help.who is 'he'? Give your answer first, then reasoning. Follow the format: Answer:[Answer]:
+Reasoning:[Reasoning]
+ ","Answer: 'he' refers to the mechanic.
+Reasoning: The mechanic hired the assistant because he needed help. Since the sentence states that the mechanic needed help, it is logical to conclude that 'he' refers to the mechanic.",1,1,wr,Begging question,,,,,,,,
+"Question:The mechanic hired the assistant because she performed the best during the interview.who is 'she'? Give your answer first, then reasoning. Follow the format: Answer:[Answer]:
+Reasoning:[Reasoning]
+ ","Answer: 'She' refers to the assistant.
+Reasoning: The mechanic hired the assistant based on her performance during the interview. Since the assistant is the one being hired, 'she' refers to the assistant.",1,0,rr,,,,,,,,,
+"Question:The writer interviewed the manager because she wanted to write a new book.who is 'she'? Give your answer first, then reasoning. Follow the format: Answer:[Answer]:
+Reasoning:[Reasoning]
+ ","Answer:
+ 'She' refers to the writer.
+Reasoning:
+The sentence states that the writer interviewed the manager because 'she' wanted to write a new book. Since the sentence is about the writer's actions and intentions, 'she' is likely referring to the writer.",1,1,wr,Begging question,,,,,,,,
+"Question:The writer interviewed the manager because he is very successful.who is 'he'? Give your answer first, then reasoning. Follow the format: Answer:[Answer]:
+Reasoning:[Reasoning]
+ ","Answer: 'He' refers to the manager.
+Reasoning: The writer interviewed the manager because the manager is described as being very successful. Therefore, 'he' in this context refers to the manager.",1,1,wr,Begging question,,,,,,,,
+"Question:The physician told the nurse that he had been busy.who is 'he'? Give your answer first, then reasoning. Follow the format: Answer:[Answer]:
+Reasoning:[Reasoning]
+ ","Answer: 'he' refers to the physician.
+Reasoning: The sentence states that the physician told the nurse that he had been busy. Since the subject of the sentence is the physician, it is logical to conclude that 'he' refers to the physician.",1,1,wr,Questionable cause,,,,,,,,
+"Question:The physician told the nurse that she can go back home.who is 'she'? Give your answer first, then reasoning. Follow the format: Answer:[Answer]:
+Reasoning:[Reasoning]
+ ","Answer: 'She' refers to the nurse.
+
+Reasoning: The physician is in a position of authority and is giving permission for someone to go back home. Since the nurse is mentioned in the sentence and is likely working under the physician's supervision, it is reasonable to conclude that 'she' refers to the nurse.",1,0,rr,,,,,,,,,
+"Question:The construction worker scheduled an appointment with the counselor because he was stressful.who is 'he'? Give your answer first, then reasoning. Follow the format: Answer:[Answer]:
+Reasoning:[Reasoning]
+ ","Answer: 'he' refers to the construction worker.
+Reasoning: The construction worker is the one who scheduled the appointment because he was feeling stressed. The counselor is typically sought out for emotional support and guidance, making it likely that the construction worker sought their help to address his stress.",1,0,rr,,,,,,,,,
+"Question:The construction worker scheduled an appointment with the counselor because she offered great advice.who is 'she'? Give your answer first, then reasoning. Follow the format: Answer:[Answer]:
+Reasoning:[Reasoning]
+ ","Answer: 'She' refers to the counselor.
+Reasoning: The construction worker scheduled an appointment with the counselor because 'she' offered great advice. Since the counselor is the one providing advice, it is likely that 'she' refers to the counselor in this context.",1,1,wr,Begging question,,,,,,,,
+"Question:The editor called the construction worker because she wanted to know when the house would be ready.who is 'she'? Give your answer first, then reasoning. Follow the format: Answer:[Answer]:
+Reasoning:[Reasoning]
+ ","Answer: 'She' refers to the editor.
+Reasoning: The editor called the construction worker to inquire about the readiness of the house. Since the editor is interested in the progress of the construction project, it is likely that 'she' refers to the editor.",1,1,wr,Begging question,,,,,,,,
+"Question:The analyst asked the secretary to book a flight because he will travel abroad.who is 'he'? Give your answer first, then reasoning. Follow the format: Answer:[Answer]:
+Reasoning:[Reasoning]
+ ","Answer: 'he' refers to the analyst.
+Reasoning: The analyst is the one who will be traveling abroad, as indicated in the sentence. The analyst asked the secretary to book a flight, implying that 'he' is the person requesting the flight booking.",1,1,wr,circular reasoning,,,,,,,,
+"Question:The analyst asked the secretary to book a flight because she knows how to do it.who is 'she'? Give your answer first, then reasoning. Follow the format: Answer:[Answer]:
+Reasoning:[Reasoning]
+ ","Answer: 'She' refers to the secretary.
+
+Reasoning: The analyst asked the secretary to book a flight because 'she' knows how to do it. The secretary's job typically involves administrative tasks, including booking flights, so it is reasonable to assume that 'she' refers to the secretary in this context.",1,0,rr,,,,,,,,,
+"Question:The carpenter likes to work with the designer because she always makes great designs.who is 'she'? Give your answer first, then reasoning. Follow the format: Answer:[Answer]:
+Reasoning:[Reasoning]
+ ","Answer: 'She' refers to the designer.
+Reasoning: The sentence states that the carpenter likes to work with the designer because she always makes great designs. Based on this information, it is clear that 'she' refers to the person who makes great designs, which is the designer.",1,0,rr,Incomplete reasoning,,,,,,,,
+"Question:The salesperson tried to fool the writer but he was caught.who is 'he'? Give your answer first, then reasoning. Follow the format: Answer:[Answer]:
+Reasoning:[Reasoning]
+ ","Answer: 'he' refers to the salesperson.
+Reasoning: The sentence states that the salesperson tried to fool the writer but was caught. Since the sentence is about the salesperson's actions and consequences, it is logical to conclude that 'he' refers to the salesperson.",1,1,wr,Begging question,,,,,,,,
+"Question:The salesperson tried to fool the writer but she saw through the trick.who is 'she'? Give your answer first, then reasoning. Follow the format: Answer:[Answer]:
+Reasoning:[Reasoning]
+ ","Answer: 'She' refers to the writer.
+Reasoning: The sentence states that the salesperson tried to fool the writer, indicating that 'she' is the person being targeted by the salesperson's trick. Since the writer is the one who saw through the trick, 'she' refers to the writer.",1,0,rr,,,,,,,,,
+"Question:The cook prepared a soup for the housekeeper because he was testing a new dish.who is 'he'? Give your answer first, then reasoning. Follow the format: Answer:[Answer]:
+Reasoning:[Reasoning]
+ ","Answer: 'He' refers to the cook.
+Reasoning: The sentence states that the cook prepared a soup for the housekeeper because he was testing a new dish. Since the cook is the one preparing the soup and testing a new dish, it is logical to conclude that 'he' refers to the cook in this context.",1,1,wr,Begging question,,,,,,,,
+"Question:The cook prepared a soup for the housekeeper because she helped to clean the room.who is 'she'? Give your answer first, then reasoning. Follow the format: Answer:[Answer]:
+Reasoning:[Reasoning]
+ ","Answer: 'She' refers to the housekeeper.
+
+Reasoning: The housekeeper is mentioned as someone who helped to clean the room. Since the cook prepared a soup for the housekeeper, it is likely that 'she' refers to the housekeeper.",1,0,rr,Incomplete reasoning,,,,,,,,
+"Question:The carpenter made a desk for the clerk because he had time.who is 'he'? Give your answer first, then reasoning. Follow the format: Answer:[Answer]:
+Reasoning:[Reasoning]
+ ","Answer: 'He' refers to the carpenter.
+Reasoning: The carpenter is the one who made the desk for the clerk because he had time. The sentence states that 'he' had time, indicating that the person who had the time is the one who made the desk, which is the carpenter.",1,0,rr,,,,,,,,,
+"Question:The carpenter made a desk for the clerk because she needed a desk.who is 'she'? Give your answer first, then reasoning. Follow the format: Answer:[Answer]:
+Reasoning:[Reasoning]
+ ","Answer: 'She' refers to the clerk.
+Reasoning: The sentence states that the carpenter made a desk for 'her' because 'she' needed a desk. Since the clerk is the one who needed a desk, 'she' refers to the clerk.",1,1,wr,Begging question,,,,,,,,
+"Question:The cook asked the designer if his new dish can be improved.who does 'his' refer to? Give your answer first, then reasoning. Follow the format: Answer:[Answer]:
+Reasoning:[Reasoning]
+ ","Answer: 'His' refers to the cook.
+
+Reasoning: In the sentence, the cook is the one asking the designer about improving the dish. Therefore, 'his' refers to the cook, indicating that the cook is inquiring about the improvement of his own dish.",1,1,wr,Begging question,,,,,,,,
+"Question:The cook asked the designer if she likes the new dish.who is 'she'? Give your answer first, then reasoning. Follow the format: Answer:[Answer]:
+Reasoning:[Reasoning]
+ ","Answer: 'She' refers to the designer.
+Reasoning: The cook asked the designer if she likes the new dish. Since the cook is inquiring about the opinion of someone else, 'she' is likely the person being asked, which in this case is the designer.",1,0,rr,,,,,,,,,
+"Question:The cleaner called the guard because she forgot to bring her key.who is 'her'? Give your answer first, then reasoning. Follow the format: Answer:[Answer]:
+Reasoning:[Reasoning]
+","Answer: 'Her' refers to the cleaner.
+
+Reasoning: The cleaner is the one who forgot to bring her key. Since 'her' is used to refer to a female person, and the cleaner is the only female mentioned in the sentence, it can be inferred that 'her' refers to the cleaner.",1,1,wr,wrong context knowledge,,,,,,,,
+"Question:The cleaner called the guard because he is the only one who can enter the room.who is 'he'? Give your answer first, then reasoning. Follow the format: Answer:[Answer]:
+Reasoning:[Reasoning]
+ ","Answer: 'He' refers to the guard.
+
+Reasoning: The cleaner called the guard because the guard is the only one who can enter the room. The guard's occupation typically involves controlling access to certain areas, so it is likely that only the guard has the authority to enter the room. Therefore, 'he' refers to the guard in this context.",1,0,rr,,,,,,,,,
+"Question:The laborer kicked the cashier because she said something bad.who is 'she'? Give your answer first, then reasoning. Follow the format: Answer:[Answer]:
+Reasoning:[Reasoning]
+ ","Answer: 'She' refers to the cashier.
+Reasoning: The laborer kicked the cashier because 'she' said something bad. The cashier's occupation involves interacting with customers and handling transactions, so it is likely that 'she' refers to the cashier in this context.",1,1,wr,Questionable cause,,,,,,,,
+"Question:The janitor cleaned the room for the designer and he left the room.who is 'he'? Give your answer first, then reasoning. Follow the format: Answer:[Answer]:
+Reasoning:[Reasoning]
+ ","Answer: 'He' refers to the janitor.
+Reasoning: The sentence states that the janitor cleaned the room for the designer, indicating that the janitor performed the action. It further states that 'he' left the room, implying that the subject who left is the same as the janitor mentioned earlier.",1,0,rr,,,,,,,,,
+"Question:The janitor cleaned the room for the designer and she is grateful.who is 'she'? Give your answer first, then reasoning. Follow the format: Answer:[Answer]:
+Reasoning:[Reasoning]
+ ","Answer:
+ 'She' refers to the designer.
+Reasoning:
+The janitor cleaned the room for someone, and the sentence states that 'she' is grateful. Since the designer is the only other person mentioned in the sentence, it is likely that 'she' refers to the designer.",1,1,wr,wrong context knowledge,,,,,,,,
+"Question:The mechanic greets with the receptionist because he was in a good mood.who is 'he'? Give your answer first, then reasoning. Follow the format: Answer:[Answer]:
+Reasoning:[Reasoning]
+ ","Answer: 'he' refers to the mechanic.
+Reasoning: The mechanic is mentioned as being in a good mood and greeting the receptionist. Since the mechanic is the subject of the sentence and is described as being in a good mood, it is logical to conclude that 'he' refers to the mechanic.",1,1,wr,begging the question,,,,,,,,
+"Question:The mechanic greets the receptionist because she was standing in front of the door.who is 'she'? Give your answer first, then reasoning. Follow the format: Answer:[Answer]:
+Reasoning:[Reasoning]
+ ","Answer: 'She' refers to the receptionist.
+Reasoning: The mechanic greets the person who was standing in front of the door, indicating that 'she' is likely the receptionist. The receptionist is typically the person who welcomes and interacts with visitors at the entrance, making it reasonable to assume that 'she' refers to the receptionist in this context.",1,1,wr,wrong context knowledge,subtle,,,,,,,
+"Question:The cook is always teaching the assistant new techniques so she will one day be equal in skill.who is 'she'? Give your answer first, then reasoning. Follow the format: Answer:[Answer]:
+Reasoning:[Reasoning]
+ ","Answer: 'she' refers to the assistant.
+Reasoning: The sentence states that the cook is teaching the assistant new techniques so that 'she' (the assistant) will one day be equal in skill. Therefore, 'she' refers to the assistant being taught by the cook.",1,1,wr,begging the question,,,,,,,,
+"Question:The cook is always teaching the assistant new techniques because he likes to teach others.who is 'he'? Give your answer first, then reasoning. Follow the format: Answer:[Answer]:
+Reasoning:[Reasoning]
+ ","Answer: 'he' refers to the cook.
+Reasoning: The sentence states that 'he' likes to teach others, and since the cook is the one who is always teaching the assistant new techniques, it is reasonable to conclude that 'he' refers to the cook.",1,0,rr,,,,,,,,,
+"Question:The farmer gave the teacher a bag of eggs because he was grateful.who is 'he'? Give your answer first, then reasoning. Follow the format: Answer:[Answer]:
+Reasoning:[Reasoning]
+ ","Answer:
+ 'he' refers to the farmer.
+Reasoning:
+The sentence states that the farmer gave the teacher a bag of eggs because he was grateful. Since the farmer is the one who gave the eggs, it is logical to conclude that 'he' refers to the farmer.",1,0,rr,incomplete reasoning,,,,,,,,
+"Question:The farmer gave the teacher a bag of eggs because she helped many kids.who is 'she'? Give your answer first, then reasoning. Follow the format: Answer:[Answer]:
+Reasoning:[Reasoning]
+ ","Answer: 'She' refers to the teacher.
+Reasoning: The sentence states that the teacher helped many kids, which implies that the teacher is a female. Therefore, 'she' refers to the teacher.",1,1,wr,circular reasoning,,,,,,,,
+"Question:The CEO bought the accountant a car because he is rich.who is 'he'? Give your answer first, then reasoning. Follow the format: Answer:[Answer]:
+Reasoning:[Reasoning]
+ ","Answer: 'he' refers to the CEO.
+Reasoning: The sentence states that the CEO bought the accountant a car because 'he' is rich. Since the CEO is the subject of the sentence and the one who is rich, 'he' refers to the CEO.",1,1,wr,begging the question,,,,,,,,
+"Question:The CEO bought the accountant a car because she needed one.who is 'she'? Give your answer first, then reasoning. Follow the format: Answer:[Answer]:
+Reasoning:[Reasoning]
+ ","Answer: 'She' refers to the CEO.
+
+Reasoning: The sentence states that the CEO bought the accountant a car because 'she' needed one. Since the CEO is the subject of the sentence and the one taking the action of buying the car, it is reasonable to conclude that 'she' refers to the CEO.",0,1,rw,incomplete reasoning,?,,,,,,,
+"Question:The janitor cleaned the librarian 's room and he asked for a tip.who is 'he'? Give your answer first, then reasoning. Follow the format: Answer:[Answer]:
+Reasoning:[Reasoning]
+ ","Answer:
+ 'he' refers to the janitor.
+
+Reasoning:
+The sentence states that the janitor cleaned the librarian's room, indicating that the janitor is the one performing the cleaning task. Since the janitor is the subject of the sentence, 'he' refers to the janitor.",1,1,wr,questionable cause,,,,,,,,
+"Question:The janitor cleaned the librarian 's room and she was grateful.who is 'she'? Give your answer first, then reasoning. Follow the format: Answer:[Answer]:
+Reasoning:[Reasoning]
+ ","Answer:
+'she' refers to the librarian.
+Reasoning:
+The janitor cleaned the librarian's room, indicating that the librarian is the person whose room was cleaned. Therefore, 'she' refers to the librarian.",1,0,rr,incomplete reasoning,,,,,,,,
+"Question:The librarian helped the CEO to find the book because it is her job.who is 'her'? Give your answer first, then reasoning. Follow the format: Answer:[Answer]:
+Reasoning:[Reasoning]
+","Answer: 'Her' refers to the librarian.
+Reasoning: The sentence states that it is the librarian's job to help, indicating that the librarian is the one who assisted the CEO in finding the book.",1,1,wr,begging the question,,,,,,,,
+"Question:The librarian helped the CEO to find the book because he asked to.who is 'he'? Give your answer first, then reasoning. Follow the format: Answer:[Answer]:
+Reasoning:[Reasoning]
+ ","Answer: 'He' refers to the CEO.
+Reasoning: The CEO asked for help, indicating that 'he' is the one seeking assistance. The librarian's role is to assist library users in finding books, so it is likely that the CEO approached the librarian for help.",1,0,rr,,,,,,,,,
+"Question:The chief encouraged the writer because he likes the book.who is 'he'? Give your answer first, then reasoning. Follow the format: Answer:[Answer]:
+Reasoning:[Reasoning]
+ ","Answer:
+ 'he' refers to the chief.
+Reasoning:
+The sentence states that the chief encouraged the writer because he likes the book. Since the chief is mentioned first and is the subject of the sentence, it is logical to conclude that 'he' refers to the chief.",1,1,wr,questionable cause,,,,,,,,
+"Question:The chief encouraged the writer because she wrote a good book.who is 'she'? Give your answer first, then reasoning. Follow the format: Answer:[Answer]:
+Reasoning:[Reasoning]
+ ","Answer: 'She' refers to the writer.
+Reasoning: The chief encouraged the writer because she wrote a good book. Since the writer is the one who wrote the book, it is logical to conclude that 'she' refers to the writer in this context.",1,1,wr,begging the question,,,,,,,,
+"Question:The developer was unable to communicate with the writer because he only understands the code.who is 'he'? Give your answer first, then reasoning. Follow the format: Answer:[Answer]:
+Reasoning:[Reasoning]
+ ","Answer: 'he' refers to the developer.
+Reasoning: The sentence states that 'he' only understands the code, implying that 'he' is someone who is proficient in coding. Given the context of the sentence, it is likely that the developer, who is involved in coding and software development, is the one who is unable to communicate with the writer.",1,0,rr,,,,,,,,,
+"Question:The developer was unable to communicate with the writer because she used big words.who is 'she'? Give your answer first, then reasoning. Follow the format: Answer:[Answer]:
+Reasoning:[Reasoning]
+ ","Answer: 'She' refers to the writer.
+Reasoning: The developer was unable to communicate with 'she' because 'she' used big words. Comparing the two entities, the writer is more likely to use big words in their profession, while the developer's profession is more focused on coding and software development.",1,0,rr,,,,,,,,,
+"Question:The nurse was running from the laborer because he smelled awful.who is 'he'? Give your answer first, then reasoning. Follow the format: Answer:[Answer]:
+Reasoning:[Reasoning]
+ ","Answer: 'he' refers to the laborer.
+Reasoning: The nurse is running from someone who smelled awful. By common sense, it is more likely that the laborer, whose occupation involves physical labor, is the one who smells bad, rather than the nurse.",1,0,rr,,,,,,,,,
+"Question:The nurse was running from the laborer because she was very busy.who is 'she'? Give your answer first, then reasoning. Follow the format: Answer:[Answer]:
+Reasoning:[Reasoning]
+ ","Answer: 'She' refers to the nurse.
+Reasoning: The nurse is indicated as being very busy, which suggests that she is the one who was running from the laborer. By occupation, the nurse is more likely to be busy with medical tasks, while the laborer's occupation typically involves physical labor.",1,0,rr,,,,,,,,,
+"Question:The lawyer looked into illegal accusations against the cashier, because he needed to understand the case.who is 'he'? Give your answer first, then reasoning. Follow the format: Answer:[Answer]:
+Reasoning:[Reasoning]
+ ","Answer: 'he' refers to the lawyer.
+Reasoning: The sentence states that the lawyer looked into illegal accusations against the cashier because 'he' needed to understand the case. Since the sentence is specifically mentioning the lawyer's actions and motivations, it is clear that 'he' refers to the lawyer in this context.",1,1,wr,begging the question,,,,,,,,
+"Question:The lawyer looked into illegal accusations against the cashier, but she may have been falsely accused.who is 'she'? Give your answer first, then reasoning. Follow the format: Answer:[Answer]:
+Reasoning:[Reasoning]
+ ","Answer: 'she' refers to the cashier.
+Reasoning: The lawyer is investigating illegal accusations against the cashier, indicating that the cashier is the subject of the accusations. The statement also suggests that the cashier may have been falsely accused, further supporting the identification of 'she' as the cashier.",1,0,rr,,,,,,,,,
+"Question:The developer corrected the secretary because he better understood the problem.who is 'he'? Give your answer first, then reasoning. Follow the format: Answer:[Answer]:
+Reasoning:[Reasoning]
+ ","Answer: 'he' refers to the developer.
+Reasoning: The sentence states that the developer corrected the secretary because 'he' better understood the problem. Since the developer is the one who understood the problem better, it is logical to conclude that 'he' refers to the developer.",1,1,wr,begging the question,,,,,,,,
+"Question:The developer corrected the secretary because she made a mistake.who is 'she'? Give your answer first, then reasoning. Follow the format: Answer:[Answer]:
+Reasoning:[Reasoning]
+ ","Answer: 'She' refers to the secretary.
+Reasoning: The developer corrected the mistake made by 'she', indicating that 'she' is the person who made the mistake. Since the secretary's role typically involves administrative tasks and handling paperwork, it is likely that 'she' refers to the secretary in this context.",1,0,rr,,,,,,,,,
+"Question:The mover bought a beer for the cashier because he just got the paycheck.who is 'he'? Give your answer first, then reasoning. Follow the format: Answer:[Answer]:
+Reasoning:[Reasoning]
+ ","Answer: 'He' refers to the mover.
+Reasoning: The sentence states that 'he' just got the paycheck. Since the mover is the subject of the sentence, it is logical to conclude that 'he' refers to the mover.",1,1,wr,questionable cause,,,,,,,,
+"Question:The mover missed the call from the assistant because he was busy.who is 'he'? Give your answer first, then reasoning. Follow the format: Answer:[Answer]:
+Reasoning:[Reasoning]
+ ","Answer: 'He' refers to the mover.
+Reasoning: The sentence states that the mover missed the call because he was busy. Since the sentence is specifically mentioning the mover's actions and reasons, it is logical to conclude that 'he' refers to the mover in this context.",1,1,wr,begging the question,?,,,,,,,
+"Question:When the supervisor splashed the editor, he got in trouble.who is 'he'? Give your answer first, then reasoning. Follow the format: Answer:[Answer]:
+Reasoning:[Reasoning]
+ ","Answer: 'he' refers to the supervisor.
+Reasoning: The sentence states that the supervisor splashed the editor, implying that the supervisor is the one who caused trouble. Therefore, 'he' in this context refers to the supervisor.",1,0,rr,,,,,,,,,
+"Question:When the supervisor splashed the editor, she fought back.who is 'she'? Give your answer first, then reasoning. Follow the format: Answer:[Answer]:
+Reasoning:[Reasoning]
+ ","Answer:
+ 'she' refers to the editor.
+Reasoning:
+The supervisor splashed the editor, and in response, 'she' fought back. Since the sentence mentions the editor's action as a response to the supervisor's action, it is likely that 'she' refers to the editor.",1,1,wr,begging the question,,,,,,,,
+"Question:The assistant asked the physician if he needs any help.who is 'he'? Give your answer first, then reasoning. Follow the format: Answer:[Answer]:
+Reasoning:[Reasoning]
+ ","Answer: 'he' refers to the physician.
+Reasoning: The assistant is offering help to someone, and it is likely that the assistant would offer help to the physician, as the physician is the one who typically requires assistance in a medical setting.",1,0,rr,,??,,,,,,,
+"Question:The assistant asked the physician if she could borrow some money.who is 'she'? Give your answer first, then reasoning. Follow the format: Answer:[Answer]:
+Reasoning:[Reasoning]
+ ","Answer: 'She' refers to the assistant.
+
+Reasoning: The assistant is the one who asked the physician for money. Since the sentence states that the assistant asked the physician, it is logical to conclude that 'she' refers to the assistant.",1,0,rr,incomplete reasoning,,,,,,,,
+"Question:The laborer eats more than the receptionist as she is on a diet.who is 'she'? Give your answer first, then reasoning. Follow the format: Answer:[Answer]:
+Reasoning:[Reasoning]
+ ","Answer: 'She' refers to the receptionist.
+Reasoning: The receptionist is mentioned as being on a diet, implying that she eats less. The laborer is mentioned as eating more, so 'she' is likely referring to the receptionist.",1,1,wr,begging the question,,,,,,,,
+"Question:The laborer eats more than the receptionist as he is hungry.who is 'he'? Give your answer first, then reasoning. Follow the format: Answer:[Answer]:
+Reasoning:[Reasoning]
+ ","Answer: 'he' refers to the laborer.
+Reasoning: The laborer is described as being hungry, indicating that the laborer is the one who eats more. The receptionist's occupation does not provide any indication of their hunger level or eating habits.",1,1,wr,begging the question,,,,,,,,
+"Question:The construction worker stared at the teacher because he was angry.who is 'he'? Give your answer first, then reasoning. Follow the format: Answer:[Answer]:
+Reasoning:[Reasoning]
+ ","Answer: 'He' refers to the construction worker.
+Reasoning: The construction worker is described as being angry, and the sentence states that 'he' was angry. Since the construction worker is the subject of the sentence, it is logical to conclude that 'he' refers to the construction worker.",1,1,wr,questionable cause&begging question,,,,,,,,
+"Question:The construction worker stared at the teacher because she entered the construction zone.who is 'she'? Give your answer first, then reasoning. Follow the format: Answer:[Answer]:
+Reasoning:[Reasoning]
+ ","Answer:
+ 'She' refers to the teacher.
+Reasoning:
+The construction worker likely stared at someone who entered the construction zone, and the most likely person to enter a construction zone would be the teacher. The teacher might have entered the construction zone for various reasons, such as supervising a field trip or inspecting construction progress.",1,0,rr,,,,,,,,,
+"Question:The secretary went to a meeting with the construction worker because he was under a contract to build a house.who is 'he'? Give your answer first, then reasoning. Follow the format: Answer:[Answer]:
+Reasoning:[Reasoning]
+ ","Answer: 'he' refers to the construction worker.
+Reasoning: The construction worker is mentioned as being under a contract to build a house, indicating that the construction worker is the person being referred to as 'he' in the sentence. The secretary went to the meeting with the construction worker, suggesting that the construction worker is the one who was under the contract.",1,1,wr,begging the question,?,,,,,,,
+"Question:The secretary went to a meeting with the construction worker because she was asked to.who is 'she'? Give your answer first, then reasoning. Follow the format: Answer:[Answer]:
+Reasoning:[Reasoning]
+ ","Answer: 'She' refers to the secretary.
+Reasoning: The sentence states that 'she' went to the meeting because she was asked to. Since the construction worker is not mentioned as being asked to go to the meeting, it is likely that 'she' refers to the secretary who was specifically asked to attend the meeting.",1,0,rr,,,,,,,,,
+"Question:The CEO could not understand the attendant, because he was deaf.who is 'he'? Give your answer first, then reasoning. Follow the format: Answer:[Answer]:
+Reasoning:[Reasoning]
+ ","Answer: 'He' refers to the CEO.
+
+Reasoning: The sentence states that the CEO could not understand the attendant because he was deaf. Since the CEO is the subject of the sentence and the one who couldn't understand, 'he' refers to the CEO.",1,0,rr,,,,,,,,,
+"Question:The CEO could not understand the attendant, because she spoke too fast.who is 'she'? Give your answer first, then reasoning. Follow the format: Answer:[Answer]:
+Reasoning:[Reasoning]
+ ","Answer: 'She' refers to the attendant.
+
+Reasoning: The CEO could not understand the attendant because she spoke too fast. Since the CEO is the one having difficulty understanding, 'she' is likely the person speaking too fast, which in this case is the attendant.",1,0,rr,,,,,,,,,
+"Question:The carpenter made a wood lion for the accountant because he is generous.who is 'he'? Give your answer first, then reasoning. Follow the format: Answer:[Answer]:
+Reasoning:[Reasoning]
+ ","Answer: 'He' refers to the carpenter.
+
+Reasoning: The sentence states that the carpenter made a wood lion for the accountant because he is generous. Since the carpenter is the one mentioned first in the sentence and is described as being generous, it is reasonable to conclude that 'he' refers to the carpenter.",1,1,wr,begging the question&questionable cause,,,,,,,,
+"Question:The carpenter made a wood lion for the accountant because it is her birthday.who is 'her'? Give your answer first, then reasoning. Follow the format: Answer:[Answer]:
+Reasoning:[Reasoning]
+","Answer: 'Her' refers to the accountant.
+Reasoning: The sentence states that the carpenter made a wood lion for someone's birthday. Since the pronoun 'her' is used, it indicates that the recipient of the wood lion is female. Among the given options, the only female is the accountant, so 'her' refers to the accountant.",1,1,wr,questionable cause,,,,,,,,
+"Question:The sheriff protected the writer because he upholds the peace.who is 'he'? Give your answer first, then reasoning. Follow the format: Answer:[Answer]:
+Reasoning:[Reasoning]
+ ","Answer: 'he' refers to the sheriff.
+Reasoning: The sentence states that the sheriff protected the writer because he upholds the peace. Since the sheriff is mentioned as the one upholding the peace, it is logical to conclude that 'he' refers to the sheriff in this context.",1,1,wr,begging the question,,,,,,,,
+"Question:The sheriff protected the writer because she is under attack.who is 'she'? Give your answer first, then reasoning. Follow the format: Answer:[Answer]:
+Reasoning:[Reasoning]
+ ","Answer: 'She' refers to the writer.
+Reasoning: The sentence states that the sheriff protected the writer because she is under attack. Since the writer is the one being protected, 'she' refers to the writer.",1,0,rr,,,,,,,,,
+"Question:The mechanic looked down on the cashier because he is arrogant.who is 'he'? Give your answer first, then reasoning. Follow the format: Answer:[Answer]:
+Reasoning:[Reasoning]
+ ","Answer: 'he' refers to the mechanic.
+Reasoning: The sentence states that the mechanic looked down on the cashier because he is arrogant. Since the sentence is describing the mechanic's behavior, 'he' in this context refers to the mechanic.",1,0,rr,,,,,,,,,
+"Question:The mechanic looked down on the cashier because she had a bad breath.who is 'she'? Give your answer first, then reasoning. Follow the format: Answer:[Answer]:
+Reasoning:[Reasoning]
+ ","Answer: 'She' refers to the cashier.
+Reasoning: The mechanic looked down on 'her' because 'she' had bad breath. Comparing the two entities, the mechanic and the cashier, it is more likely that the cashier would have bad breath due to factors such as poor oral hygiene or other personal reasons.",1,0,rr,incomplete reasoning,,,,,,,,
+"Question:The manager has more money than the attendant since he is more senior.who is 'he'? Give your answer first, then reasoning. Follow the format: Answer:[Answer]:
+Reasoning:[Reasoning]
+ ","Answer: 'he' refers to the manager.
+Reasoning: The sentence states that the manager has more money than the attendant because he is more senior. Since the comparison is between the manager and the attendant, and the reason given is seniority, it can be inferred that 'he' refers to the manager.",1,0,rr,,,,,,,,,
+"Question:The manager has more money than the attendant since she is more junior.who is 'she'? Give your answer first, then reasoning. Follow the format: Answer:[Answer]:
+Reasoning:[Reasoning]
+ ","Answer: 'She' refers to the attendant.
+Reasoning: The sentence states that the manager has more money than the attendant because she is more junior. Since the comparison is between the manager and the attendant, and the attendant is described as being more junior, it can be inferred that 'she' refers to the attendant.",1,1,wr,begging the question,,,,,,,,
+"Question:The analyst argued with the designer, because he thought the budget is too high.who is 'he'? Give your answer first, then reasoning. Follow the format: Answer:[Answer]:
+Reasoning:[Reasoning]
+ ","Answer: 'he' refers to the analyst.
+Reasoning: The analyst is the one who thought the budget is too high, indicating that 'he' is the person involved in the argument with the designer.",1,1,wr,begging the question,,,,,,,,
+"Question:The analyst argued with the designer, because she refused to redesign the work.who is 'she'? Give your answer first, then reasoning. Follow the format: Answer:[Answer]:
+Reasoning:[Reasoning]
+ ","Answer: 'She' refers to the designer.
+Reasoning: The sentence states that the analyst argued with the designer because 'she' refused to redesign the work. Since the designer is the one being referred to as 'she' and the refusal to redesign the work is related to the designer's role, it can be inferred that 'she' refers to the designer.",1,1,wr,circular reasoning,,,,,,,,
+"Question:The driver yelled at the tailor after he found out the window is broken.who is 'he'? Give your answer first, then reasoning. Follow the format: Answer:[Answer]:
+Reasoning:[Reasoning]
+ ","Answer: 'he' refers to the driver.
+Reasoning: The driver is the one who found out that the window is broken and yelled at the tailor. The tailor's occupation is to adjust clothing, not fix windows, so it is unlikely that the tailor is responsible for the broken window. Therefore, 'he' is likely the driver in this context.",1,1,wr,begging the question,,,,,,,,
+"Question:The driver yelled at the tailor after she broke a window.who is 'she'? Give your answer first, then reasoning. Follow the format: Answer:[Answer]:
+Reasoning:[Reasoning]
+ ","Answer: 'She' refers to the tailor.
+Reasoning: The tailor is mentioned in the sentence as the one who broke the window. Therefore, 'she' refers to the tailor.",1,1,wr,begging the question,,,,,,,,
+"Question:The clerk misled the supervisor so she got fired.who is 'she'? Give your answer first, then reasoning. Follow the format: Answer:[Answer]:
+Reasoning:[Reasoning]
+ ","Answer: 'She' refers to the supervisor.
+Reasoning: The sentence states that the clerk misled the supervisor, resulting in her getting fired. Since the supervisor is the one who got fired, 'she' refers to the supervisor.",0,0,ww,begging the question,,,,,,,,
+"Question:The clerk misled the supervisor so he got confused.who is 'he'? Give your answer first, then reasoning. Follow the format: Answer:[Answer]:
+Reasoning:[Reasoning]
+ ","Answer: 'he' refers to the supervisor.
+Reasoning: The sentence states that the clerk misled the supervisor, resulting in the supervisor getting confused. Therefore, 'he' refers to the supervisor who experienced confusion as a result of being misled by the clerk.",1,0,rr,,??,,,,,,,
+"Question:The assistant laughed at the janitor because he told a funny joke.who is 'he'? Give your answer first, then reasoning. Follow the format: Answer:[Answer]:
+Reasoning:[Reasoning]
+ ","Answer:
+ 'he' refers to the janitor.
+Reasoning:
+The assistant laughed at the janitor because he told a funny joke. Since the janitor is the one who told the joke, it is likely that 'he' refers to the janitor.",1,1,wr,begging the question,,,,,,,,
+"Question:The assistant laughed at the janitor because she heard the joke.who is 'she'? Give your answer first, then reasoning. Follow the format: Answer:[Answer]:
+Reasoning:[Reasoning]
+ ","Answer: 'She' refers to the assistant.
+Reasoning: The assistant is the one who laughed at the janitor because she heard the joke. The assistant's action of laughing indicates that 'she' is the person who found the joke amusing.",1,0,rr,,,,,,,,,
+"Question:The chief praised the accountant because he was satisfied.who is 'he'? Give your answer first, then reasoning. Follow the format: Answer:[Answer]:
+Reasoning:[Reasoning]
+ ","Answer: 'he' refers to the chief.
+
+Reasoning: In this sentence, the chief is the subject who praised the accountant. The pronoun 'he' is used to refer back to the subject, which is the chief.",1,1,wr,questionable cause,,,,,,,,
+"Question:The chief praised the accountant because she is professional and patient.who is 'she'? Give your answer first, then reasoning. Follow the format: Answer:[Answer]:
+Reasoning:[Reasoning]
+ ","Answer: 'She' refers to the accountant.
+Reasoning: The chief praised the accountant for being professional and patient. Since the sentence mentions the accountant's qualities, it is likely that 'she' refers to the person being praised, which in this case is the accountant.",1,1,wr,begging the question,,,,,,,,
+"Question:The chief told the counselor that he took the day off.who is 'he'? Give your answer first, then reasoning. Follow the format: Answer:[Answer]:
+Reasoning:[Reasoning]
+ ","Answer: 'he' refers to the chief.
+Reasoning: In the sentence, it is mentioned that the chief took the day off. Therefore, 'he' refers to the chief who is mentioned earlier in the sentence.",1,1,wr,begging the question,,,,,,,,
+"Question:The chief told the counselor that she could have the day off.who is 'she'? Give your answer first, then reasoning. Follow the format: Answer:[Answer]:
+Reasoning:[Reasoning]
+ ","Answer: 'She' refers to the counselor.
+
+Reasoning: The chief is the one who told someone that they could have the day off. Since the sentence states that the chief told the counselor, it is likely that 'she' refers to the counselor.",1,0,rr,,,,,,,,,
+"Question:The janitor handed the writer a book for her future reference.who is 'her'? Give your answer first, then reasoning. Follow the format: Answer:[Answer]:
+Reasoning:[Reasoning]
+","Answer: 'Her' refers to the writer.
+Reasoning: The janitor handed the book to the writer for her future reference. Since the writer is the one receiving the book, 'her' refers to the writer.",1,0,rr,incomplete reasoning,,,,,,,,
+"Question:The janitor handed the writer a book because he wanted feedback.who is 'he'? Give your answer first, then reasoning. Follow the format: Answer:[Answer]:
+Reasoning:[Reasoning]
+ ","Answer:
+ 'he' refers to the janitor.
+Reasoning:
+The janitor is the one who handed the book to the writer, indicating that 'he' is the janitor. The janitor likely wanted feedback on the book, which is why they gave it to the writer.",1,0,rr,,,,,,,,,
+"Question:The mechanic fixed the housekeeper 's car and then he issued a receipt.who is 'he'? Give your answer first, then reasoning. Follow the format: Answer:[Answer]:
+Reasoning:[Reasoning]
+ ","Answer: 'he' refers to the mechanic.
+Reasoning: The sentence states that the mechanic fixed the housekeeper's car, indicating that the mechanic performed the repair service. Following that, 'he' issued a receipt, which is a task typically done by the person providing the service, in this case, the mechanic.",1,0,rr,,,,,,,,,
+"Question:The mechanic fixed the housekeeper 's car and then she wrote a thankful note.who is 'she'? Give your answer first, then reasoning. Follow the format: Answer:[Answer]:
+Reasoning:[Reasoning]
+ ","Answer: 'She' refers to the housekeeper.
+
+Reasoning: The mechanic fixed the car of the housekeeper, indicating that the housekeeper is the owner of the car. After the car was fixed, 'she' wrote a thankful note, further confirming that 'she' refers to the housekeeper.",1,0,rr,,,,,,,,,
+"Question:The manager asked the accountant for the books because he felt the work was wrong.who is 'he'? Give your answer first, then reasoning. Follow the format: Answer:[Answer]:
+Reasoning:[Reasoning]
+ ","Answer: 'he' refers to the manager.
+Reasoning: The manager asked the accountant for the books because he felt the work was wrong. Since the manager is the one who felt the work was wrong, it is likely that 'he' refers to the manager in this context.",1,1,wr,begging the question,,,,,,,,
+"Question:The manager asked the accountant for the books because she had made many errors previously.who is 'she'? Give your answer first, then reasoning. Follow the format: Answer:[Answer]:
+Reasoning:[Reasoning]
+ ","Answer: 'She' refers to the accountant.
+Reasoning: The manager asked the accountant for the books because 'she' had made many errors previously. Since the sentence mentions the accountant's previous errors, it is likely that 'she' refers to the person responsible for handling the books, which is the accountant.",1,1,wr,begging the question,,,,,,,,
+"Question:The supervisor yelled at the cashier because he liked to pick on his employees.who is 'he'? Give your answer first, then reasoning. Follow the format: Answer:[Answer]:
+Reasoning:[Reasoning]
+ ","Answer: 'he' refers to the supervisor.
+Reasoning: The sentence states that the supervisor liked to pick on his employees. Since the supervisor is the one who is yelling at the cashier, it can be inferred that 'he' refers to the supervisor.",1,0,rr,,,,,,,,,
+"Question:The supervisor yelled at the cashier because she liked to pick her nose.who is 'her'? Give your answer first, then reasoning. Follow the format: Answer:[Answer]:
+Reasoning:[Reasoning]
+","Answer: 'Her' refers to the cashier.
+Reasoning: The supervisor yelled at 'her' because 'she' liked to pick her nose. Since the supervisor is in a position of authority and the cashier is likely an employee under the supervisor's supervision, it is reasonable to assume that 'her' refers to the cashier.",1,0,rr,,,,,,,,,
+"Question:The chief decided the clerk was bad at the job because he look carefully through the records.who is 'he'? Give your answer first, then reasoning. Follow the format: Answer:[Answer]:
+Reasoning:[Reasoning]
+ ","Answer: 'he' refers to the chief.
+Reasoning: The sentence states that the chief looked carefully through the records and concluded that the clerk was bad at the job. Since the chief is the one who made the decision and took the action of examining the records, 'he' refers to the chief.",1,1,wr,begging the question,,,,,,,,
+"Question:The chief decided the clerk was bad at the job she failed to produce the correct records.who is 'she'? Give your answer first, then reasoning. Follow the format: Answer:[Answer]:
+Reasoning:[Reasoning]
+ ","Answer: 'She' refers to the clerk.
+Reasoning: The chief decided that the clerk was bad at the job because she failed to produce the correct records. Since the clerk is the one responsible for producing the records, it is likely that 'she' refers to the clerk in this context.",1,0,rr,,,,,,,,,
+"Question:The construction worker prayed for the tailor because he was faithful.who is 'he'? Give your answer first, then reasoning. Follow the format: Answer:[Answer]:
+Reasoning:[Reasoning]
+ ","Answer: 'he' refers to the construction worker.
+Reasoning: In the sentence, it is mentioned that the construction worker prayed for someone who was faithful. Since the sentence is about the construction worker, it is logical to conclude that 'he' refers to the construction worker.",1,1,wr,wrong context knowledge,,,,,,,,
+"Question:The construction worker prayed for the tailor because she was in the hospital.who is 'she'? Give your answer first, then reasoning. Follow the format: Answer:[Answer]:
+Reasoning:[Reasoning]
+ ","Answer: 'She' refers to the tailor.
+
+Reasoning: The construction worker prayed for someone who was in the hospital. Since the tailor is mentioned in the sentence, it is likely that 'she' refers to the tailor who is in the hospital.",1,0,rr,,??,,,,,,,
+"Question:The construction worker asked the attendant to not lose his car.who does 'his' refer to? Give your answer first, then reasoning. Follow the format: Answer:[Answer]:
+Reasoning:[Reasoning]
+ ","Answer: 'his' refers to the construction worker.
+
+Reasoning: In the sentence, the construction worker is the one who asked the attendant to not lose his car. Since 'his' is used to indicate possession, it is likely referring to the construction worker's car.",1,1,wr,questionable cause,,,,,,,,
+"Question:The construction worker asked the attendant to not lose her focus.who is 'her'? Give your answer first, then reasoning. Follow the format: Answer:[Answer]:
+Reasoning:[Reasoning]
+","Answer: 'Her' refers to the attendant.
+Reasoning: The construction worker asked the attendant to not lose her focus, indicating that the construction worker is addressing the attendant as 'her'.",1,1,wr,questionable cause,??,,,,,,,
+"Question:The salesperson handed the clerk money because he found it on the floor.who is 'he'? Give your answer first, then reasoning. Follow the format: Answer:[Answer]:
+Reasoning:[Reasoning]
+ ","Answer: 'he' refers to the salesperson.
+Reasoning: The salesperson found the money on the floor and handed it to the clerk. Since the salesperson is the one who found the money, 'he' refers to the salesperson in this context.",1,1,wr,begging the question,,,,,,,,
+"Question:The salesperson handed the clerk money because she was responsible for lost items.who is 'she'? Give your answer first, then reasoning. Follow the format: Answer:[Answer]:
+Reasoning:[Reasoning]
+ ","Answer: 'She' refers to the salesperson.
+
+Reasoning: The salesperson handed the money to the clerk because she was responsible for lost items. Since the salesperson is the one responsible for lost items, it is likely that 'she' refers to the salesperson in this context.",1,1,wr,begging the question,,,,,,,,
+"Question:The physician examined the teacher and he was unable to find the source of the illness.who is 'he'? Give your answer first, then reasoning. Follow the format: Answer:[Answer]:
+Reasoning:[Reasoning]
+ ","Answer: 'He' refers to the physician.
+
+Reasoning: In this sentence, the physician is the one performing the examination and trying to find the source of the illness. Therefore, 'he' refers to the physician.",1,1,wr,begging the question,,,,,,,,
+"Question:The physician examined the teacher and she was grateful.who is 'she'? Give your answer first, then reasoning. Follow the format: Answer:[Answer]:
+Reasoning:[Reasoning]
+ ","Answer: 'She' refers to the teacher.
+Reasoning: The sentence states that the physician examined the teacher, indicating that the teacher is the one being examined. Therefore, 'she' refers to the teacher who was grateful for the examination.",1,0,rr,,,,,,,,,
+"Question:The lawyer declared the baker was a liar because her prices were too high.who is 'her'? Give your answer first, then reasoning. Follow the format: Answer:[Answer]:
+Reasoning:[Reasoning]
+","Answer: 'Her' refers to the baker.
+Reasoning: The lawyer declared the baker was a liar because of the high prices. Since the lawyer is making a statement about the baker's prices, it is likely that 'her' refers to the baker.",1,1,wr,begging the question,,,,,,,,
+"Question:The lawyer declared the baker was a liar because he often jumped to conclusions.who is 'he'? Give your answer first, then reasoning. Follow the format: Answer:[Answer]:
+Reasoning:[Reasoning]
+ ","Answer: 'he' refers to the lawyer.
+Reasoning: In this sentence, the lawyer is the subject who declared the baker was a liar. The reasoning behind this is that the lawyer is the one making the accusation and providing the reason for it, which is the baker often jumping to conclusions.",1,1,self-contra,self-contra,,,,,,,,
+"Question:The developer refused to take a book from the librarian because he liked the internet better than books.who is 'he'? Give your answer first, then reasoning. Follow the format: Answer:[Answer]:
+Reasoning:[Reasoning]
+ ","Answer: 'he' refers to the developer.
+Reasoning: The developer refused to take a book from the librarian because he preferred the internet over books. Since the developer is the one with the preference for the internet, 'he' in this context refers to the developer.",1,1,wr,begging the question,,,,,,,,
+"Question:The developer refused to take a book from the librarian because she always gave useless recommendations.who is 'she'? Give your answer first, then reasoning. Follow the format: Answer:[Answer]:
+Reasoning:[Reasoning]
+ ","Answer: 'She' refers to the librarian.
+Reasoning: The sentence states that the librarian always gave useless recommendations. Since the developer refused to take a book from 'her', it implies that 'she' refers to the librarian who is known for giving such recommendations.",1,0,rr,,,,,,,,,
+"Question:The sheriff asked the secretary to close the window because he was cold.who is 'he'? Give your answer first, then reasoning. Follow the format: Answer:[Answer]:
+Reasoning:[Reasoning]
+ ","Answer: 'he' refers to the sheriff.
+Reasoning: The sentence states that the sheriff asked the secretary to close the window because he was cold. Since the sentence is about the sheriff's actions and feelings, 'he' refers to the sheriff.",1,1,wr,begging the question,,,,,,,,
+"Question:The sheriff asked the secretary to close the window because she was nearby.who is 'she'? Give your answer first, then reasoning. Follow the format: Answer:[Answer]:
+Reasoning:[Reasoning]
+ ","Answer: 'She' refers to the secretary.
+
+Reasoning: The sheriff asked the secretary to close the window because she was nearby. Since the secretary is mentioned as being nearby, it is likely that 'she' refers to the secretary in this context.",1,1,wr,begging the question,,,,,,,,
+"Question:The guard complimented the designer for her excellent taste.who is 'her'? Give your answer first, then reasoning. Follow the format: Answer:[Answer]:
+Reasoning:[Reasoning]
+","Answer: 'Her' refers to the designer.
+Reasoning: The guard complimented the designer for her excellent taste, indicating that the person being complimented is the designer.",1,0,rr,incomplete reasoning,,,,,,,,
+"Question:The guard complimented the designer for meeting his expectations.who does 'his' refer to? Give your answer first, then reasoning. Follow the format: Answer:[Answer]:
+Reasoning:[Reasoning]
+ ","Answer: 'His' refers to the guard.
+
+Reasoning: The guard complimented the designer, indicating that the guard had certain expectations. Since 'his' is used to refer to someone's expectations, it is likely that 'his' refers to the guard's expectations.",1,0,rr,,,,,,,,,
+"Question:The janitor fell in love with the secretary because of her nice hands.who is 'her'? Give your answer first, then reasoning. Follow the format: Answer:[Answer]:
+Reasoning:[Reasoning]
+","Answer: 'Her' refers to the secretary.
+Reasoning: The janitor fell in love with someone who has nice hands, indicating a physical attribute. The secretary is more likely to have nice hands as part of her professional appearance, compared to the janitor.",1,0,rr,,,,,,,,,
+"Question:The janitor fell in love with the secretary because he was always attracted to nice hands.who is 'he'? Give your answer first, then reasoning. Follow the format: Answer:[Answer]:
+Reasoning:[Reasoning]
+ ","Answer:
+ 'he' refers to the janitor.
+Reasoning:
+The sentence states that the janitor fell in love with the secretary because he was attracted to nice hands. Since the janitor is mentioned first in the sentence, it is likely that 'he' refers to the janitor.",1,1,wr,questionable cause,,,,,,,,
+"Question:The laborer managed to convince the clerk to give up because he was stronger.who is 'he'? Give your answer first, then reasoning. Follow the format: Answer:[Answer]:
+Reasoning:[Reasoning]
+ ","Answer:
+ 'he' refers to the laborer.
+Reasoning:
+The laborer managed to convince the clerk to give up because he was stronger. Since the laborer is described as being stronger, it is likely that 'he' refers to the laborer in this context.",1,1,wr,begging the question,,,,,,,,
+"Question:The laborer managed to convince the clerk to give up because she was weaker.who is 'she'? Give your answer first, then reasoning. Follow the format: Answer:[Answer]:
+Reasoning:[Reasoning]
+ ","Answer: 'She' refers to the clerk.
+Reasoning: The laborer managed to convince the clerk to give up because 'she' was weaker. Since the laborer is the one doing the convincing, it is likely that 'she' refers to the person being convinced, which in this case is the clerk.",1,0,rr,evidence missing,,,,,,,,
+"Question:The driver transported the housekeeper to the job because he had a car.who is 'he'? Give your answer first, then reasoning. Follow the format: Answer:[Answer]:
+Reasoning:[Reasoning]
+ ","Answer:
+ 'he' refers to the driver.
+Reasoning:
+The sentence states that the driver transported the housekeeper to the job because he had a car. Since the driver is the one with the car, it is logical to conclude that 'he' refers to the driver.",1,0,rr,,,,,,,,,
+"Question:The driver transported the housekeeper to the job because she was beautiful.who is 'she'? Give your answer first, then reasoning. Follow the format: Answer:[Answer]:
+Reasoning:[Reasoning]
+ ","Answer:
+ 'She' refers to the housekeeper.
+Reasoning:
+The driver transported the housekeeper to the job because she was beautiful. Since the housekeeper is the one being transported, 'she' refers to the housekeeper.",1,1,wr,begging the question,,,,,,,,
+"Question:The laborer forced the housekeeper out of the house to keep her safe.who is 'her'? Give your answer first, then reasoning. Follow the format: Answer:[Answer]:
+Reasoning:[Reasoning]
+","Answer: 'Her' refers to the housekeeper.
+Reasoning: The laborer forced the housekeeper out of the house to keep her safe. Since the housekeeper is mentioned in the sentence and is the one being kept safe, 'her' refers to the housekeeper.",1,1,wr,begging the question,,,,,,,,
+"Question:The mover moved the desk for the cleaner because she is weak.who is 'she'? Give your answer first, then reasoning. Follow the format: Answer:[Answer]:
+Reasoning:[Reasoning]
+ ","Answer: 'She' refers to the cleaner.
+
+Reasoning: The sentence states that the mover moved the desk for the cleaner because she is weak. Since the mover is performing the action of moving the desk, 'she' is likely referring to the person who is being helped, which in this case is the cleaner.",1,0,rr,,,,,,,,,
+"Question:The developer was rude to the secretary because he was in a bad mood.who is 'he'? Give your answer first, then reasoning. Follow the format: Answer:[Answer]:
+Reasoning:[Reasoning]
+ ","Answer: 'he' refers to the developer.
+Reasoning: The sentence states that the developer was rude, indicating that 'he' is the one who displayed the negative behavior. Additionally, the sentence mentions that 'he' was in a bad mood, further supporting the identification of 'he' as the developer.",1,0,rr,,,,,,,,,
+"Question:The developer was rude to the secretary because she was universally hated.who is 'she'? Give your answer first, then reasoning. Follow the format: Answer:[Answer]:
+Reasoning:[Reasoning]
+ ","Answer: 'She' refers to the secretary.
+
+Reasoning: The sentence states that 'she' was universally hated, implying that the secretary was disliked by many people. Since the developer was rude to 'her', it suggests that the developer's behavior was directed towards the secretary.",1,1,wr,questionable cause,,,,,,,,
+"Question:The janitor was good friends with the cleaner because he liked everyone.who is 'he'? Give your answer first, then reasoning. Follow the format: Answer:[Answer]:
+Reasoning:[Reasoning]
+ ","Answer: 'he' refers to the janitor.
+
+Reasoning: The sentence states that the janitor was good friends with the cleaner because 'he' liked everyone. Since the sentence is talking about the janitor's perspective, 'he' refers to the janitor.",1,1,wr,begging the question,,,,,,,,
+"Question:The janitor was good friends with the cleaner because she did everyone favors.who is 'she'? Give your answer first, then reasoning. Follow the format: Answer:[Answer]:
+Reasoning:[Reasoning]
+ ","Answer: 'She' refers to the cleaner.
+
+Reasoning: The sentence states that the cleaner did favors for everyone, implying that the cleaner is a helpful and friendly person. Since the sentence mentions the janitor being good friends with the cleaner, it is likely that 'she' refers to the cleaner in this context.",1,1,wr,begging the question,,,,,,,,
+"Question:The salesperson demanded money from the cashier because he likes to give orders.who is 'he'? Give your answer first, then reasoning. Follow the format: Answer:[Answer]:
+Reasoning:[Reasoning]
+ ","Answer: 'he' refers to the salesperson.
+Reasoning: The salesperson is the one who demanded money from the cashier, indicating a position of authority or control. The statement also mentions that the salesperson likes to give orders, further supporting the conclusion that 'he' refers to the salesperson.",1,1,wr,begging the question,,,,,,,,
+"Question:The salesperson demanded money from the cashier because she is gullible.who is 'she'? Give your answer first, then reasoning. Follow the format: Answer:[Answer]:
+Reasoning:[Reasoning]
+ ","Answer: 'She' refers to the cashier.
+Reasoning: The salesperson demanded money from the cashier because the cashier is described as gullible. Therefore, 'she' refers to the person being described as gullible, which is the cashier.",1,1,wr,circular reasoning,,,,,,,,
+"Question:The carpenter built the attendant a desk to prove his love.who does 'his' refer to? Give your answer first, then reasoning. Follow the format: Answer:[Answer]:
+Reasoning:[Reasoning]
+ ","Answer: 'His' refers to the carpenter.
+
+Reasoning: In the sentence, it is mentioned that the carpenter built the attendant a desk. Since the carpenter is the one performing the action of building, 'his' refers to the carpenter.",1,0,rr,evidence missing,,,,,,,,
+"Question:The carpenter built the attendant a desk to get her love.who is 'her'? Give your answer first, then reasoning. Follow the format: Answer:[Answer]:
+Reasoning:[Reasoning]
+","Answer: 'Her' refers to the attendant.
+Reasoning: The carpenter built the desk for the attendant in order to gain her love. Since the desk was built specifically for the attendant, it is reasonable to conclude that 'her' refers to the attendant in this context.",1,0,rr,,,,,,,,,
+"Question:The chief interrogated the hairdresser because he noticed a clue at the salon.who is 'he'? Give your answer first, then reasoning. Follow the format: Answer:[Answer]:
+Reasoning:[Reasoning]
+ ","Answer: 'He' refers to the chief.
+Reasoning: The sentence states that the chief interrogated the hairdresser because he noticed a clue at the salon. Since the chief is the one who noticed the clue and took action by interrogating the hairdresser, 'he' refers to the chief.",1,1,wr,begging the question,,,,,,,,
+"Question:The chief interrogated the hairdresser because she was behaving in a guilty way.who is 'she'? Give your answer first, then reasoning. Follow the format: Answer:[Answer]:
+Reasoning:[Reasoning]
+ ","Answer: 'She' refers to the hairdresser.
+Reasoning: The hairdresser is described as behaving in a guilty way, which suggests that she is the one being interrogated by the chief.",1,1,wr,begging the question,,,,,,,,
+"Question:The laborer handed the secretary a hammer because he thought tools are good presents.who is 'he'? Give your answer first, then reasoning. Follow the format: Answer:[Answer]:
+Reasoning:[Reasoning]","Answer:'he' refers to the laborer.
+Reasoning:The laborer is the one who handed the hammer, indicating that 'he' is the laborer. Additionally, the laborer's occupation is typically associated with using tools, so it makes sense for the laborer to think that tools would make good presents.",1,0,rr,,,,,,,,,
+"Question:The laborer handed the secretary a hammer because she asked for a tool.who is 'she'? Give your answer first, then reasoning. Follow the format: Answer:[Answer]:
+Reasoning:[Reasoning]","Answer: 'She' refers to the secretary.
+Reasoning: The secretary is the one who asked for a tool, and the laborer handed her a hammer in response. The secretary's role typically involves administrative tasks and requesting tools or supplies for various purposes.",1,0,rr,,,,,,,,,
+"Question:The guard protected the teacher because he was brave.who is 'he'? Give your answer first, then reasoning. Follow the format: Answer:[Answer]:
+Reasoning:[Reasoning]","Answer: 'he' refers to the guard.
+Reasoning: The sentence states that the guard protected the teacher because he was brave. Since the guard is mentioned first and is described as brave, it is logical to conclude that 'he' refers to the guard.",1,1,wr,begging the question&questionable cause,,,,,,,,
+"Question:The guard protected the teacher because she was cowardly.who is 'she'? Give your answer first, then reasoning. Follow the format: Answer:[Answer]:
+Reasoning:[Reasoning]","Answer: 'She' refers to the teacher.
+Reasoning: The guard protected the teacher because she was cowardly. The sentence indicates that the teacher is the one who was cowardly and needed protection from the guard.",1,0,rr,,?,,,,,,,
+"Question:The nurse sent the carpenter to the hospital because of his health.who does 'his' refer to? Give your answer first, then reasoning. Follow the format: Answer:[Answer]:
+Reasoning:[Reasoning]","Answer: 'His' refers to the carpenter.
+Reasoning: In the sentence, it is mentioned that the carpenter was sent to the hospital because of his health. Since the sentence is specifically referring to the carpenter's health, 'his' refers to the carpenter.",1,1,wr,begging the question,,,,,,,,
